@@ -1,3 +1,5 @@
+A data-driven exploration of the global COVID-19 pandemic, its impact across countries, and the correlation between various health, demographic, and economic factors.
+
 # COVID-19 Data Analysis with Our World In Data (OWID)
 
 This project performs an exploratory data analysis (EDA) on the COVID-19 dataset provided by [Our World In Data (OWID)](https://ourworldindata.org/covid-deaths). The dataset includes global COVID-19 metrics such as cases, deaths, testing, hospitalizations, vaccinations, and demographic indicators across countries and over time.
