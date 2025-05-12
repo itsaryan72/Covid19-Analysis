@@ -4,9 +4,11 @@ A data-driven exploration of the global COVID-19 pandemic, its impact across cou
 
 This project performs an exploratory data analysis (EDA) on the COVID-19 dataset provided by [Our World In Data (OWID)](https://ourworldindata.org/covid-deaths). The dataset includes global COVID-19 metrics such as cases, deaths, testing, hospitalizations, vaccinations, and demographic indicators across countries and over time.
 
+
 ---
 
-##  📦 Dataset Source
+
+###  📦 Dataset Source
 
 The data is sourced directly from OWID's compact CSV:
 
@@ -15,7 +17,7 @@ This file contains 496,820 rows and 61 columns (as of the time of analysis), cov
 
 ---
 
-## 🧰 Technologies Used
+### 🧰 Technologies Used
 
 - Python 3.x
 - Pandas
@@ -23,7 +25,7 @@ This file contains 496,820 rows and 61 columns (as of the time of analysis), cov
 
 ---
 
-## 📊 Data Overview
+### 📊 Data Overview
 
 - **Countries Covered**: Global (e.g., Afghanistan, United States, India, etc.)
 - **Date Range**: From Jan 1, 2020 onwards
@@ -37,7 +39,7 @@ This file contains 496,820 rows and 61 columns (as of the time of analysis), cov
 
 ---
 
-## 🔍 Initial Analysis Steps
+### 🔍 Initial Analysis Steps
 
 1. **Load the Data**:
    ```python
@@ -52,9 +54,13 @@ This file contains 496,820 rows and 61 columns (as of the time of analysis), cov
    df.info()
   df.describe()
 
+---
 
 
-**Key Observations:**
--> Many early entries (especially in 2020) contain NaN values due to reporting lags.
--> Some columns such as life_expectancy have entirely missing values and may require external supplementation or be excluded.
--> Indicators vary widely in data completeness across countries.
+### **Key Observations:**
+
+1. Many early entries (especially in 2020) contain NaN values due to reporting lags.
+
+2. Some columns such as life_expectancy have entirely missing values and may require external supplementation or be excluded.
+
+3. Indicators vary widely in data completeness across countries.
